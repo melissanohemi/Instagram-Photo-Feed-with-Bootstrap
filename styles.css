@@ -1,5 +1,4 @@
 body{
-    background-color: grey;
     margin: 0;
 }
 /* div{
@@ -7,7 +6,7 @@ body{
 } */
 header{
     background: white;
-    padding: 10px;
+    padding: 20px;
 }
 header h1{
     margin:0;
@@ -28,7 +27,7 @@ div.post .post-header div:last-child{
     width:20%;
     padding:10px;
     text-align: right;
-    color:grey;
+    color:white;
     }
 div.post h2, div.post p{
     padding: 10px;
@@ -45,6 +44,7 @@ div.container{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     grid-template-row: repeat(3, 1fr);
+    border: 2px solid red;
 }
 div.col{
         float: left;
