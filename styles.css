@@ -22,13 +22,13 @@ div.post .post-header div:first-child{
 display: inline-block;
 width:80%;
 }
-div.post .post-header div:last-child{
+/* div.post .post-header div:last-child{
     display: inline-block;
     width:20%;
     padding:10px;
     text-align: right;
-    color:white;
-    }
+    color:black;
+    } */
 div.post h2, div.post p{
     padding: 10px;
     margin:0;
@@ -36,7 +36,11 @@ div.post h2, div.post p{
 div.container{
     width: 600px;
 }
-
+div.date{
+    display: inline-block; 
+    text-align: left; 
+    color:black;
+}
 
 
 .gridTest {
