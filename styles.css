@@ -23,11 +23,12 @@ div.post-header{
 div.container{
     width: 600px;
 }
-div.date{
+div.date {
     display: flex; 
     margin-left:auto;
     padding-right:20px;
     color:black;
+    font-weight:bold;
 }
 
 .gridTest {
