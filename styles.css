@@ -1,9 +1,6 @@
 body{
     margin: 0;
 }
-/* div{
-   box-sizing: border-box; 
-} */
 header{
     background: white;
     padding: 20px;
@@ -18,30 +15,20 @@ div.post{
 div.post img{
     width: 100%;
 }
-div.post .post-header div:first-child{
-display: inline-block;
-width:80%;
-}
-/* div.post .post-header div:last-child{
-    display: inline-block;
-    width:20%;
-    padding:10px;
-    text-align: right;
-    color:black;
-    } */
-div.post h2, div.post p{
-    padding: 10px;
-    margin:0;
+div.post-header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 div.container{
     width: 600px;
 }
 div.date{
-    display: inline-block; 
-    text-align: left; 
+    display: flex; 
+    margin-left:auto;
+    padding-right:20px;
     color:black;
 }
-
 
 .gridTest {
     display: grid;
